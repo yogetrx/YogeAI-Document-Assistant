@@ -1,0 +1,58 @@
+[
+  {
+    "id": "refund-001",
+    "document": "refund_policy.md",
+    "question": "How many calendar days does a customer have to request a refund?",
+    "expected_evidence": "14 calendar days",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": true
+  },
+  {
+    "id": "refund-002",
+    "document": "refund_policy.md",
+    "question": "How soon are refund requests acknowledged?",
+    "expected_evidence": "within two business days",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": true
+  },
+  {
+    "id": "refund-003",
+    "document": "refund_policy.md",
+    "question": "Are third-party payment provider fees refundable?",
+    "expected_evidence": "not refundable",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": true
+  },
+  {
+    "id": "sla-001",
+    "document": "service_level_agreement.md",
+    "question": "What is the monthly availability target?",
+    "expected_evidence": "99.5% monthly availability",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": true
+  },
+  {
+    "id": "sla-002",
+    "document": "service_level_agreement.md",
+    "question": "How much financial compensation is guaranteed for downtime?",
+    "expected_evidence": "The document does not define service credits or financial compensation",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": false
+  },
+  {
+    "id": "aup-001",
+    "document": "acceptable_use_policy.md",
+    "question": "Can users upload private keys without safeguards?",
+    "expected_evidence": "Users should not upload passwords or private keys unless explicitly approved and safeguards are implemented",
+    "expected_page_note": "Markdown source; PDF page number depends on conversion",
+    "answerable": true
+  },
+  {
+    "id": "unknown-001",
+    "document": "all",
+    "question": "Who is the company's chief executive officer?",
+    "expected_evidence": "No evidence in the sample documents",
+    "expected_page_note": "Not present",
+    "answerable": false
+  }
+]
